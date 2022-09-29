@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> My Profile </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sofia&display=swap" rel="stylesheet">
+
+    <style>
+        .myProfile {
+            color: black;
+            background-color: antiquewhite;
+        }
+
+        #nav_bar {
+            color: aqua;
+            background-color: beige;
+            font-size: 25px;
+            font-weight: bold;
+            font-family: 'Sofia', cursive;
+        }
+
+        #nav_bar a:link {
+            text-decoration: none;
+            margin-right: 40px;
+        }
+
+        header div .font_awsome {
+            margin-right: 15px;
+        }
+
+        footer div .follow_me {
+            margin-right: 40px;
+        }
+
+        footer div #follow-me-label {
+            font-size: large;
+            font-weight: bold;
+            margin-right: 50px;
+        }
+
+        header div #email_id {
+            font-style: italic;
+        }
+
+        header div #name {
+            margin-right: 50px;
+        }
+        section{
+            background-image: url(dltnIv.webp);
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+        #nav_bar a:hover{
+            text-shadow: 4px 2px 5px #c91322;
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <div>
+            <p class="myProfile"><span class="font_awsome"><i class="fa fa-user fa-1x"
+                        aria-hidden="true"></i></span><span id="name">Sushant Sawant</span>
+                <span class="font_awsome"><i class="fa fa-phone-square fa-1x" aria-hidden="true"></i></span><span
+                    id="name">9156 0058 81</span>
+                <span class="font_awsome"><i class="fa fa-envelope fa-1x" aria-hidden="true"></i></span><span
+                    id="name"><span id="email_id">sushantsawant123@gmail.com </span></span>
+            </p>
+        </div>
+    </header>
+    <nav id="nav_bar">
+        <a href="home.html" target="frame1"> Home </a>
+        <a href="tech_stack.html" target="frame1">Tech_stack</a>
+        <a href="education.html" target="frame1"> Education</a>
+        <a href="myProject.html" target="frame1"> Project </a>
+        <a href="hobbies.html" target="frame1"> Hobbies </a>
+        <a href="personal.html" target="frame1"> Personal</a>
+        <a href="registrationForm.html" target="frame1"> Other </a>
+
+    </nav>
+    <section>
+        <iframe name="frame1" width="900px" height="600px" src="home.html">
+        </iframe>
+    </section>
+
+    <footer>
+        <div>
+            <span id="follow-me-label">Follow me</span>
+
+            <span class="follow_me">
+                <a href="https://www.linkedin.com/" target="_blank"><i class="fa fa-linkedin-square fa-1x"
+                        aria-hidden="true"></i></a>
+            </span>
+            <span class="follow_me">
+                <a href="https://www.google.com/" target="_blank"><i class="fa fa-google fa-1x"
+                        aria-hidden="true"></i></a>
+            </span>
+            <span class="follow_me">
+                <a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram fa-1x"
+                        aria-hidden="true"></i></a>
+            </span>
+            <span class="follow_me">
+                <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook-square fa-1x"
+                        aria-hidden="true"></i></a>
+            </span>
+        </div>
+
+    </footer>
+</body>
+
+</html>
