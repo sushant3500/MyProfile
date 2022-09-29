@@ -4,6 +4,37 @@
 <head>
     <title> Registration Form </title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sofia&display=swap" rel="stylesheet">
+    <style>
+       label{
+           color: cadetblue; 
+           font-size: large;
+           font-family: 'Poppins', cursive;
+        }
+
+
+        input[type="text"]{
+            color: rgb(165, 72, 72);
+            background: bisque;
+            width: 180px;
+            text-transform: uppercase;
+            border-radius: 10px;
+        }
+        input[type="submit"]{
+            background: rgb(162, 227, 229);
+            color:rgb(165, 72, 72);
+            width: 100px;
+            border-radius: 20px;
+            height: 30px;
+        }
+        input[type="submit"]:hover{
+            background: bisque;
+        }
+
+
+    </style>
 </head>
 
 <body>
@@ -47,14 +78,14 @@
                 <tr>
                     <td> <label> Trainings</label></td>
                     <td>
-                         <input type="checkbox"> <label> Angular </label>
+                        <input type="checkbox"> <label> Angular </label>
                         <input type="checkbox" checked> <label> React </label>
                         <input type="checkbox"> <label> Java </label>
                         <input type="checkbox"> <label> Testing </label>
                     </td>
                 </tr>
                 <tr>
-                    <td> Gender </td>
+                    <td><label>Gender</label></td>
                     <td>
                         <input type="radio" name="gender" checked> <label> Female </label>
                         <input type="radio" name="gender"> <label> Male </label>
@@ -80,7 +111,7 @@
                     <td> <input type="file"></td>
                 </tr>
                 <tr>
-                    <td> Upload Mark Sheets</td>
+                    <td><label>Upload Mark Sheets</label></td>
                     <td> <input type="file" multiple></td>
                 </tr>
                 <tr>
@@ -91,7 +122,7 @@
                     <td><input type="submit"></td>
                     <td><input type="reset"> </td>
                 </tr>
-                
+
             </tbody>
         </table>
     </form>
