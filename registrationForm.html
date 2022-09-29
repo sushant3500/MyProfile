@@ -8,38 +8,48 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Sofia&display=swap" rel="stylesheet">
     <style>
-       label{
-           color: cadetblue; 
-           font-size: large;
-           font-family: 'Poppins', cursive;
+        label {
+            color: cadetblue;
+            font-size: large;
+            font-family: 'Poppins', cursive;
         }
 
 
-        input[type="text"]{
+        input[type="text"],
+        [type="number"],
+        [type="email"],
+        [type="password"],
+        [type="date"] {
             color: rgb(165, 72, 72);
             background: bisque;
             width: 180px;
             text-transform: uppercase;
             border-radius: 10px;
         }
-        input[type="submit"]{
+
+        input[type="submit"],
+        [type="reset"] {
             background: rgb(162, 227, 229);
-            color:rgb(165, 72, 72);
+            color: rgb(165, 72, 72);
             width: 100px;
             border-radius: 20px;
             height: 30px;
         }
-        input[type="submit"]:hover{
+
+        input[type="submit"]:hover {
             background: bisque;
         }
 
-
+        input[type="reset"]:hover {
+            background: rgb(209, 192, 226);
+        }
     </style>
 </head>
 
 <body>
-
-    <h2> Student Registration form</h2>
+    <marquee direction="left" width="500px" height="50px" behavior="sliding">
+        <h2> Student Registration form</h2>
+    </marquee>
     <form>
         <table>
             <tbody>

@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Sofia&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Sofia&display=swap" rel="stylesheet">
 
     <style>
         .myProfile {
@@ -19,7 +19,7 @@
             background-color: beige;
             font-size: 25px;
             font-weight: bold;
-            font-family: 'Sofia', cursive;
+            font-family: 'Roboto', sans-serif;
         }
 
         #nav_bar a:link {
@@ -48,15 +48,24 @@
         header div #name {
             margin-right: 50px;
         }
-        section{
+
+        section {
             background-image: url(dltnIv.webp);
             background-repeat: no-repeat;
             background-size: contain;
         }
-        #nav_bar a:hover{
-            text-shadow: 4px 2px 5px #c91322;
-        }
 
+        #nav_bar a:hover {
+            text-shadow: 4px 2px 5px #c91322;
+            background: rgb(173, 204, 223);
+            color: white;
+        }
+        header div .myProfile, #nav_bar{
+            display: inline-block;
+        }
+        #nav_bar{
+            margin-bottom: 10px;
+        }
     </style>
 </head>
 
